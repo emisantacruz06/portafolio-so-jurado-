@@ -1,0 +1,37 @@
+=== DATOS DEL EQUIPO ===
+Host: emi-VirtualBox
+Fecha: mié 07 oct 2026 11:49:32 -05
+SO: Ubuntu 26.04.1 LTS
+
+=== CPU ===
+CPU(s):                                   8
+Lista de la(s) CPU(s) en línea:           0-7
+Nombre del modelo:                        13th Gen Intel(R) Core(TM) i7-13620H
+CPU(s) del nodo NUMA 0:                   0-7
+
+=== RAM ===
+               total       usado       libre  compartido   búf/caché  disponible
+Mem:           5,3Gi       3,4Gi       273Mi       112Mi       1,7Gi       1,9Gi
+Inter:         4,0Gi        65Mi       3,9Gi
+
+=== DISCOS ===
+NAME   TYPE   SIZE MODEL
+loop0  loop     4K 
+loop1  loop  66,8M 
+loop2  loop    20M 
+loop3  loop 260,3M 
+loop4  loop  16,5M 
+loop5  loop  91,7M 
+loop6  loop 614,5M 
+loop7  loop   1,5M 
+loop8  loop   402M 
+loop9  loop   828K 
+loop10 loop  50,1M 
+loop11 loop  11,8M 
+loop12 loop  18,8M 
+sda    disk   100G VBOX HARDDISK
+sr0    rom   1024M VBOX CD-ROM
+
+=== RED ===
+Interfaz: lo | IP: 127.0.0.1/8
+Interfaz: enp0s3 | IP: 10.0.2.15/24
