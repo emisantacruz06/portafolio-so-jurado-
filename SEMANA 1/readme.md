@@ -29,5 +29,4 @@ Este repositorio contiene la documentación, scripts y evidencias del inventario
 .\inventario.ps1
 
 ### En Linux 
-chmod +x inventario.sh
-./inventario.sh
+bash inventario.sh
