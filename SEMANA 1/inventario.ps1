@@ -1,4 +1,5 @@
 # inventario.ps1 - Semana 1
+# Nota: este script fue realizado con asistencia de IA.
 $salida = "SEMANA 1\inventario_$env:COMPUTERNAME.txt"
 $cpu    = Get-CimInstance Win32_Processor
 $os     = Get-CimInstance Win32_OperatingSystem
