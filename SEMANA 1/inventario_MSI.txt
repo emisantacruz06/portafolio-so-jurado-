@@ -1,0 +1,33 @@
+﻿== Equipo: MSI | 10/05/2026 22:57:42
+== SO: Microsoft Windows 11 Home 10.0.26200
+== CPU
+
+
+Name                      : 13th Gen Intel(R) Core(TM) i7-13620H
+NumberOfCores             : 10
+NumberOfLogicalProcessors : 16
+MaxClockSpeed             : 2400
+L2CacheSize               : 9728
+L3CacheSize               : 24576
+
+
+
+== Memoria RAM Total
+RAM Total: 16 GB
+== Discos
+
+FriendlyName                    MediaType Size (GB)
+------------                    --------- ---------
+NVMe SAMSUNG MZVL8512HELU-00BTW SSD          476,94
+
+
+== Red (Extra)
+
+InterfaceAlias           IPAddress      
+--------------           ---------      
+Local Area Connection* 2 169.254.127.108
+Local Area Connection* 1 169.254.255.72 
+Ethernet                 169.254.133.200
+Wi-Fi                    192.168.100.70 
+
+
