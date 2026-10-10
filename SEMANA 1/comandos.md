@@ -19,3 +19,12 @@
 - Get-PnpDevice -PresentOnly : Ver dispositivos conectados
 - systeminfo : Ver resumen general del sistema en consola
 - msinfo32 : Abrir la ventana de información del sistema
+
+## Git y GitHub
+- echo "# portafolio-so-jurado-" >> README.md : Crear el archivo README inicial con el título del proyecto
+- git init : Inicializar un repositorio local de Git en la carpeta
+- git add README.md : Preparar el archivo README para el commit
+- git commit -m "first commit" : Guardar el primer estado/versión del proyecto con un mensaje
+- git branch -M main : Renombrar la rama principal a main
+- git remote add origin https://github.com/emisantacruz06/portafolio-so-jurado-.git : Enlazar el repositorio local con el de GitHub
+- git push -u origin main : Subir los archivos por primera vez al repositorio remoto
