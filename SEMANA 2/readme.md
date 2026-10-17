@@ -4,10 +4,9 @@ Este repositorio contiene el Deber 2, enfocado en el análisis de la jerarquía 
 
 ## Ejecución de los Scripts
 
-### Windows
+### Windows y Linux
 ```powershell
 .\memoria.ps1
 
-### Linux
 chmod +x memoria.sh
 ./memoria.sh
