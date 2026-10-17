@@ -1,0 +1,42 @@
+REPORTE DE HARDWARE
+Equipo: msi-virtualbox
+Sistema Operativo: Ubuntu 22.04.3 LTS
+Fecha de generación: 2026-10-16 23:40:15
+
+ARQUITECTURA
+Arquitectura: x86_64
+Byte Order:            Little Endian
+
+MEMORIA CACHE
+NAME ONE-SIZE ALL-SIZE WAYS TYPE        LEVEL
+L1d       32K     256K    8 Data            1
+L1i       32K     256K    8 Instruction     1
+L2       512K       4M    8 Unified         2
+L3        24M      24M   16 Unified         3
+
+CONJUNTOS DE LA CACHE L1d
+Fórmula: S = C / (L * A)
+Cálculo manual resuelto: S = 32768 / (64 * 8) = 64 conjuntos
+
+RAM Y MEMORIA VIRTUAL
+               total        used        free      shared  buff/cache   available
+Mem:           3.8Gi       1.2Gi       1.4Gi        12Mi       1.2Gi       2.3Gi
+Swap:          2.0Gi          0B       2.0Gi
+
+DISCOS FISICOS
+Nota: En la columna ROTA, 0 significa SSD y 1 significa HDD.
+NAME MODEL            SIZE ROTA
+sda  VBOX HARDDISK     50G    0
+
+TIEMPOS DE EJECUCION DE MATRIZ
+-> Ejecución normal (por filas):
+
+real	0m0.158s
+user	0m0.142s
+sys	0m0.016s
+
+-> Ejecución con argumento 'c' (por columnas):
+
+real	0m1.892s
+user	0m1.870s
+sys	0m0.022s
