@@ -1,42 +1,41 @@
 REPORTE DE HARDWARE
-Equipo: msi-virtualbox
-Sistema Operativo: Ubuntu 22.04.3 LTS
-Fecha de generación: 2026-10-16 23:40:15
+Equipo: emi-VirtualBox
+Sistema Operativo: Ubuntu 26.04.1 LTS
+Fecha de generación: 2026-10-16 23:40:59
 
 ARQUITECTURA
 Arquitectura: x86_64
-Byte Order:            Little Endian
+Byte Order: Little Endian
 
 MEMORIA CACHE
-NAME ONE-SIZE ALL-SIZE WAYS TYPE        LEVEL
-L1d       32K     256K    8 Data            1
-L1i       32K     256K    8 Instruction     1
-L2       512K       4M    8 Unified         2
-L3        24M      24M   16 Unified         3
+NAME ONE-SIZE ALL-SIZE WAYS TYPE        LEVEL  SETS PHY-LINE COHERENCY-SIZE
+L1d       48K     384K   12 Data            1    64        1             64
+L1i       32K     256K    8 Instruction     1    64        1             64
+L2       1,3M      10M   10 Unified         2  2048        1             64
+L3        24M     192M   12 Unified         3 32768        1             64
 
 CONJUNTOS DE LA CACHE L1d
 Fórmula: S = C / (L * A)
 Cálculo manual resuelto: S = 32768 / (64 * 8) = 64 conjuntos
 
 RAM Y MEMORIA VIRTUAL
-               total        used        free      shared  buff/cache   available
-Mem:           3.8Gi       1.2Gi       1.4Gi        12Mi       1.2Gi       2.3Gi
-Swap:          2.0Gi          0B       2.0Gi
+               total       usado       libre  compartido   búf/caché  disponible
+Mem:           5,3Gi       2,1Gi       510Mi        70Mi       2,8Gi       3,2Gi
+Inter:         4,0Gi        18Mi       4,0Gi
 
 DISCOS FISICOS
 Nota: En la columna ROTA, 0 significa SSD y 1 significa HDD.
-NAME MODEL            SIZE ROTA
-sda  VBOX HARDDISK     50G    0
+NAME   MODEL            SIZE ROTA
+sda    VBOX HARDDISK   100G    1
+sr0    VBOX CD-ROM    1024M    0
 
 TIEMPOS DE EJECUCION DE MATRIZ
 -> Ejecución normal (por filas):
-
 real	0m0.158s
 user	0m0.142s
 sys	0m0.016s
 
 -> Ejecución con argumento 'c' (por columnas):
-
 real	0m1.892s
 user	0m1.870s
 sys	0m0.022s

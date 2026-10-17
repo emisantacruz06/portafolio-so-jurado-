@@ -1,5 +1,6 @@
 #!/bin/bash
-# Deber 2 - Reporte de Hardware en Linux (Comandos recomendados)
+# Deber 2 - Reporte de Hardware en Linux
+# Se utilizó como apoyo la IA.
 
 salida="memoria_$(hostname).txt"
 
@@ -30,7 +31,7 @@ salida="memoria_$(hostname).txt"
 
     echo "DISCOS FISICOS"
     echo "Nota: En la columna ROTA, 0 significa SSD y 1 significa HDD."
-    lsblk -d -o NAME,MODEL,SIZE,ROTA
+    lsblk -d -o NAME,MODEL,SIZE,ROTA | grep -v loop
     echo ""
 
     echo "TIEMPOS DE EJECUCION DE MATRIZ"
