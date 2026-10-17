@@ -1,5 +1,5 @@
 # Reporte de hardware para Windows
-# Ejecutar desde PowerShell. Guarda memoria_<equipo>.txt en la carpeta actual.
+# Apoyo con herramienta de IA.
 
 $ErrorActionPreference = "SilentlyContinue"
 $equipo = $env:COMPUTERNAME
