@@ -1,0 +1,36 @@
+=== 1. Sistema operativo, version y nucleo ===
+Sistema: AlmaLinux 9.x
+Nucleo: 5.14.0-xxx.el9.x86_64
+Arquitectura: x86_64
+
+=== 2. Ultimo arranque y tiempo encendido ===
+Arranco: 2026-10-28 08:15:30
+Encendida: up 2 hours, 10 minutes
+
+=== 3. Desglose del arranque (systemd-analyze) ===
+Startup finished in 1.5s (kernel) + 3.2s (initrd) + 12.4s (userspace) = 17.1s
+
+=== 4. Cinco unidades mas lentas (blame) ===
+4.200s NetworkManager-wait-online.service
+1.800s firewalld.service
+1.100s chronyd.service
+0.900s systemd-udev-settle.service
+0.700s NetworkManager.service
+
+=== 5. Modulos del nucleo ===
+Total de modulos cargados: 150
+Cinco modulos de mayor tamano (bytes):
+modulo_ejemplo_1: 1234567 bytes
+modulo_ejemplo_2: 987654 bytes
+modulo_ejemplo_3: 765432 bytes
+modulo_ejemplo_4: 654321 bytes
+modulo_ejemplo_5: 543210 bytes
+
+=== 6. Cierre ===
+Objetivo predeterminado:
+graphical.target
+
+Unidades fallidas:
+0 loaded units listed.
+
+Informe guardado en: informe_arranque_MiLinux_20261028_101530.txt
