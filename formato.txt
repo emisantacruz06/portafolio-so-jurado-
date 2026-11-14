@@ -1,0 +1,56 @@
+============================================================
+SECCION 1. SISTEMA Y SHELL
+============================================================
+Sistema Operativo: AlmaLinux 10.2 (Lion Cub)
+Kernel: 6.12.0-55.9.1.el10_0.x86_64
+Version Bash: 5.2.26(1)-release
+
+============================================================
+SECCION 2. HERRAMIENTAS REQUERIDAS
+============================================================
+[OK]    git -> git version 2.47.1
+[OK]    curl -> curl 8.9.1 (x86_64-redhat-linux-gnu) libcurl/8.9.1 OpenSSL/3.2.2 zlib/1.3.1.zlib-ng
+[OK]    python3 -> Python 3.12.9
+[OK]    jq -> jq-1.7.1
+[OK]    strace -> strace -- version 6.12
+[OK]    tree -> tree v2.1.3 (c) 1996 - 2024 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro
+
+============================================================
+SECCION 3. PAQUETES Y ORIGENES
+============================================================
+Total de paquetes instalados: 1142
+Repositorios activos:
+  repo id                           repo name
+  appstream                         AlmaLinux 10.2 - AppStream
+  baseos                            AlmaLinux 10.2 - BaseOS
+  extras                            AlmaLinux 10.2 - Extras
+Origen de herramientas:
+  git -> git-core-2.47.1-1.el10.x86_64
+  curl -> curl-8.9.1-5.el10.x86_64
+  python3 -> python3-3.12.9-1.el10.x86_64
+  jq -> jq-1.7.1-7.el10.x86_64
+  strace -> strace-6.12-1.el10.x86_64
+  tree -> tree-2.1.3-3.el10.x86_64
+
+============================================================
+SECCION 4. ULTIMAS 5 INSTALACIONES
+============================================================
+  ID | Command line                                 | Date and time    | Action(s)      | Altered
+  -------------------------------------------------------------------------------------------------
+   5 | dnf install -y jq                            | 2026-11-13 09:42 | Install        |       2
+   4 | dnf install -y strace tree gcc python3 curl  | 2026-11-13 09:15 | Install        |       8
+   3 | dnf upgrade -y                               | 2026-10-15 18:20 | Upgrade        |      45
+   2 | dnf install -y git                           | 2026-10-08 10:12 | Install        |       4
+   1 |                                              | 2026-10-07 11:30 | Install        |    1083
+
+============================================================
+SECCION 5. QUE FALTA Y COMO INSTALARLO
+============================================================
+No falta ninguna herramienta.
+
+============================================================
+SECCION 6. RESULTADO Y CODIGO DE SALIDA
+============================================================
+Herramientas listas: 6 de 6
+Informe guardado en: verificador_emi-VirtualBox_2026-11-13.txt
+Resultado: COMPLETO (codigo 0)
