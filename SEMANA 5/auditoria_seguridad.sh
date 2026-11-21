@@ -4,7 +4,7 @@
 # Deber 5 - Auditoria de seguridad del equipo (Linux)
 # Sistemas Operativos - EPN - Semana 5
 # -----------------------------------------------------------------------------
-# Autores: Emily Jurado, [Nombre del companero]
+# Autores: Emily Jurado
 # Fecha: 2026-11-20
 # Uso de IA: Se utilizo IA generativa para apoyar la elaboracion,
 # revision y correccion del codigo.
