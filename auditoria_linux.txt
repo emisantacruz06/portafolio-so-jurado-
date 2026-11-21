@@ -1,0 +1,39 @@
+
+Auditoria de seguridad - emi-VirtualBox - 2026-11-20 11:49
+
+=== 1 - Llavero maestro ===
+Cuentas con UID 0:
+  root
+Miembros de wheel:
+  No existe el grupo wheel o no tiene miembros
+Miembros de sudo:
+  emi
+No existen cuentas adicionales con UID 0
+-> Seccion 1: OK
+
+=== 2 - Puertas abiertas ===
+Puerto 0.0.0.0:22 - Direccion 0.0.0.0 - abierta a la red
+Puerto 127.0.0.1:631 - Direccion 127.0.0.1 - solo el equipo
+Puerto 127.0.0.53:53 - Direccion 127.0.0.53 - solo el equipo
+Puerto 127.0.0.54:53 - Direccion 127.0.0.54 - solo el equipo
+Puerto 10.0.2.15:68 - Direccion 10.0.2.15 - abierta a la red
+-> Seccion 2: OK
+
+=== 3 - Portero activo ===
+firewalld: inactivo o no instalado
+Estado de UFW:
+Status: inactive
+-> Seccion 3: ALERTA
+
+=== 4 - Intentos fallidos (umbral: 5 por IP) ===
+No se encontraron intentos fallidos.
+-> Seccion 4: OK
+
+=== 5 - Veredicto ===
+Seccion 1: OK
+Seccion 2: OK
+Seccion 3: ALERTA
+Seccion 4: OK
+Resultado general: ALERTA (1 secciones con problemas).
+
+Informe guardado en: auditoria_emi-VirtualBox_20261120_1149.txt
